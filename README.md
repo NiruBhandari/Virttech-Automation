@@ -1,13 +1,20 @@
 
-ENVIRONMENT & SETUP
+ENVIRONMENT & SETUP  
 
 Language and Framework:
+
 Programming Language: Java (JDK 19)
+
 Automation Framework: Selenium WebDriver 4.16.1
+
 Test Framework: TestNG 7.8.0
+
 Build Tool: Maven
+
 Browser: Google Chrome
+
 Driver: ChromeDriver (matching Chrome version 144)
+
 IDE: IntelliJ IDEA
 
 PREREQUISITES:
