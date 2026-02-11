@@ -24,18 +24,22 @@ HOW TO RUN THE AUTOMATION SCRIPT:
 git clone [https://github.com/your-username/signup-automation.git](https://github.com/NiruBhandari/Virttech-Automation.git)
 cd signup-automation
 
+
 2. Configure ChromeDriver:
 Download ChromeDriver from:
 https://chromedriver.chromium.org/downloads
 
-Update the path in the code:
+
+3.Update the path in the code:
 System.setProperty("webdriver.chrome.driver",
 "C:\Users\nirub\OneDrive\Documents\Automation\chromedriver-win32\chromedriver.exe");
 
-3. Install Dependencies:
+
+4. Install Dependencies:
 mvn clean install
 
-4. Execute the Script:
+
+5. Execute the Script:
 
 Run using IntelliJ or Eclipse:
 Open signup_automation_script.java
@@ -43,6 +47,7 @@ Right click → Run as TestNG Test
 
 Run using Command Line:
 mvn test
+
 
 TEST DATA AND ACCOUNTS USED:
 
