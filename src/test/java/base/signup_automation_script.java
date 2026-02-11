@@ -23,15 +23,8 @@ public class signup_automation_script {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        driver.get("hhttps://authorized-partner.vercel.app/");
-        WebElement loginEmail = driver.findElement(By.name("email"));
-        loginEmail.sendKeys("nirubhandari04@gmail.com");
+        driver.get("https://authorized-partner.vercel.app/");
 
-        WebElement loginPassword = driver.findElement(By.name("password"));
-        loginPassword .sendKeys("dontforgetStud@345");
-
-        WebElement loginBtn = driver.findElement(By.xpath("//button[normalize-space()='Log In']"));
-        loginBtn.click();
     }
 //Get Started
     @Test(priority = 1)
@@ -97,7 +90,7 @@ public class signup_automation_script {
     @Test(priority = 3)
     public void enterOTP() throws InterruptedException {
         System.out.println("Waiting for OTP...");
-        Thread.sleep(20000); // Tester enters OTP manually
+        Thread.sleep(53000); // Tester enters OTP manually
         driver.findElement(By.xpath(" //button[normalize-space()='Verify Code']")).click();
     }
 
@@ -106,8 +99,11 @@ public class signup_automation_script {
     @Test(priority = 4)
     public void step2_AgencyDetails() {
 
-        WebElement agencyName = driver.findElement(By.name("agency_name"));
+        WebElement agencyName = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@placeholder='Agency Name']")
+        ));
         agencyName.sendKeys("Niru Tech Agency");
+
 
         // Role in Agency
         WebElement role = driver.findElement(By.name("role_in_agency"));
