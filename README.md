@@ -3,72 +3,69 @@ ENVIRONMENT & SETUP
 
 Language and Framework:
 
-Programming Language: Java (JDK 19)
+  1.Programming Language: Java (JDK 19)
 
-Automation Framework: Selenium WebDriver 4.16.1
+  2.Automation Framework: Selenium WebDriver 4.16.1
 
-Test Framework: TestNG 7.8.0
+  3.Test Framework: TestNG 7.8.0
 
-Build Tool: Maven
+  4.Build Tool: Maven
 
-Browser: Google Chrome
+  5.Browser: Google Chrome
 
-Driver: ChromeDriver (matching Chrome version 144)
+  6.Driver: ChromeDriver (matching Chrome version 144)
 
-IDE: IntelliJ IDEA
+  7.IDE: IntelliJ IDEA
 
 PREREQUISITES:
 Before running this project, make sure the following are installed:
-- Java JDK 19
-- Apache Maven
-- Google Chrome Browser
-- ChromeDriver
-- IntelliJ IDEA or Eclipse
+  Java JDK 19
+  Apache Maven
+  Google Chrome Browser
+  ChromeDriver
+  IntelliJ IDEA or Eclipse
 
 HOW TO RUN THE AUTOMATION SCRIPT:
 
-1. Clone the Repository:
-git clone [https://github.com/your-username/signup-automation.git](https://github.com/NiruBhandari/Virttech-Automation.git)
-cd signup-automation
+  1. Clone the Repository:
+    git clone [https://github.com/your-username/signup-automation.git](https://github.com/NiruBhandari/Virttech-Automation.git)
+    cd signup-automation
 
 
-2. Configure ChromeDriver:
-Download ChromeDriver from:
-https://chromedriver.chromium.org/downloads
+  2. Configure ChromeDriver:
+    Download ChromeDriver from:
+    https://chromedriver.chromium.org/downloads
 
 
-3.Update the path in the code:
-System.setProperty("webdriver.chrome.driver",
-"C:\Users\nirub\OneDrive\Documents\Automation\chromedriver-win32\chromedriver.exe");
+  3.Update the path in the code:
+    System.setProperty("webdriver.chrome.driver",
+    "C:\Users\nirub\OneDrive\Documents\Automation\chromedriver-win32\chromedriver.exe");
 
 
-4. Install Dependencies:
-mvn clean install
+  4. Install Dependencies:
+    mvn clean install
 
 
-5. Execute the Script:
+  5. Execute the Script:
 
-Run using IntelliJ or Eclipse:
-Open signup_automation_script.java
-Right click → Run as TestNG Test
+# Run using IntelliJ or Eclipse:
+  Open signup_automation_script.java
+  Right click → Run as TestNG Test
 
-Run using Command Line:
-mvn test
+# Run using Command Line:
+  mvn test
 
 
 TEST DATA AND ACCOUNTS USED:
 
-Login Test Account:
-Email: nirubhandari04@gmail.com
-Password: dontforgetStud@345
+  1.Login Test Account:
+    Email: nirubhandari04@gmail.com
+    Password: dontforgetStud@345
 
-Registration Test Data:
-
-First Name: Niru
-
-Last Name: Bhandari
-
-Phone Number: 9848035767
+  2.Registration Test Data:
+    First Name: Niru
+    Last Name: Bhandari
+    Phone Number: 9848035767
 
 Password: Test@1234
 
