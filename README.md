@@ -95,6 +95,8 @@ To avoid duplicate registration errors, the email is generated dynamically:
 NOTES:
 
 1.OTP verification is performed manually due to security restrictions.
+
 2.Explicit waits are used to handle dynamic UI loading.
+
 3.Selenium WebDriver and TestNG are used for step-wise automation execution.
 
