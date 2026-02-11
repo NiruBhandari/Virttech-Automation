@@ -1,5 +1,6 @@
 
 ENVIRONMENT & SETUP
+
 Language and Framework:
 Programming Language: Java (JDK 19)
 Automation Framework: Selenium WebDriver 4.16.1
@@ -14,13 +15,13 @@ Before running this project, make sure the following are installed:
 - Java JDK 19
 - Apache Maven
 - Google Chrome Browser
-- ChromeDriver (same version as Chrome)
+- ChromeDriver
 - IntelliJ IDEA or Eclipse
 
 HOW TO RUN THE AUTOMATION SCRIPT:
 
 1. Clone the Repository:
-git clone https://github.com/your-username/signup-automation.git
+git clone [https://github.com/your-username/signup-automation.git](https://github.com/NiruBhandari/Virttech-Automation.git)
 cd signup-automation
 
 2. Configure ChromeDriver:
