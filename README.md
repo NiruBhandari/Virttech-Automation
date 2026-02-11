@@ -121,7 +121,7 @@ mvn test
 
 ---
 
-## 📧 Dynamic Email Generation
+##  Dynamic Email Generation
 
 To avoid duplicate registration errors, a unique email is generated dynamically:
 
