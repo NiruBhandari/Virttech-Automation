@@ -56,27 +56,45 @@ Email: nirubhandari04@gmail.com
 Password: dontforgetStud@345
 
 Registration Test Data:
+
 First Name: Niru
+
 Last Name: Bhandari
+
 Phone Number: 9848035767
+
 Password: Test@1234
+
 Agency Name: Niru Tech Agency
+
 Role in Agency: Owner
+
 Agency Website: www.remoteaxle.com
+
 Address: Kirtipur, Kathmandu, Nepal
+
 Experience: 2 years
+
 Students Recruited Annually: 10
+
 Focus Area: Undergraduate
+
 Success Metrics: 90%
+
 Business Registration Number: 1010101010
+
 Region/Country Selected: Australia
 
+
 Dynamic Email Generation:
+
 To avoid duplicate registration errors, the email is generated dynamically:
+
 "niru" + System.currentTimeMillis() + "@gmail.com"
 
 NOTES:
-- OTP verification is performed manually due to security restrictions.
-- Explicit waits are used to handle dynamic UI loading.
-- Selenium WebDriver and TestNG are used for step-wise automation execution.
+
+1.OTP verification is performed manually due to security restrictions.
+2.Explicit waits are used to handle dynamic UI loading.
+3.Selenium WebDriver and TestNG are used for step-wise automation execution.
 
