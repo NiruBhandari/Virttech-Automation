@@ -16,7 +16,7 @@ It covers login, onboarding steps, agency details, professional experience, and 
 - **Build Tool:** Maven  
 - **Browser:** Google Chrome  
 - **Driver:** ChromeDriver (compatible with Chrome version 144)  
-- **IDE:** IntelliJ IDEA (Eclipse can also be used)
+- **IDE:**  IntelliJ IDEA (Eclipse can also be used)
 
 ---
 
